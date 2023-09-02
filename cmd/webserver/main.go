@@ -19,5 +19,4 @@ func main() {
 
     fmt.Printf("Server Running On Port: %v \n", *listenAddr)
     log.Fatal(server.Start())
-    fmt.Printf("Server Closed On Port: %v \n", *listenAddr)
 }
